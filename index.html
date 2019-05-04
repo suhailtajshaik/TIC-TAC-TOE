@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>GAME : Tic-Tac-Toe</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <section>
+        <div class="endgame">
+            <h2 class="text"></h2>
+            <button class="btn btn-primary" onclick="startGame()">Try Again</button>
+        </div>
+        <h2 id="your-side"> </h2>
+        <div class="selectSym">
+            <h2>Select side: </h2>
+            <input type="button" value="X" class="btn select-side light" name="side-x" onClick="selectSym('X')">
+            <input type="button" value="O" class="btn select-side dark" name="side-o" onClick="selectSym('O')">
+        </div>
+    </section>
+
+    <section>
+        <table>
+            <tr>
+                <td class="cell" id="0"></td>
+                <td class="cell" id="1"></td>
+                <td class="cell" id="2"></td>
+            </tr>
+            <tr>
+                <td class="cell" id="3"></td>
+                <td class="cell" id="4"></td>
+                <td class="cell" id="5"></td>
+            </tr>
+            <tr>
+                <td class="cell" id="6"></td>
+                <td class="cell" id="7"></td>
+                <td class="cell" id="8"></td>
+            </tr>
+        </table>
+    </section>
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.17.11/lodash.core.min.js"></script>
+    <script src="main.js"></script>
+</body>
+
+</html>
