@@ -5,7 +5,7 @@ let COMPUTER_TOKEN = 'X';
 let CONSTANTS = {
     WIN : "Congratulations you won!",
     LOSE : "!",
-    TIE : "We are equals! Let's paly again..."
+    TIE : "We are equals! Let's play again..."
 }
 
 const winningCombinations = [
