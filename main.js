@@ -4,7 +4,7 @@ let PLAYER_TOKEN = 'O';
 let COMPUTER_TOKEN = 'X';
 let CONSTANTS = {
     WIN : "Congratulations you won!",
-    LOSE : "!",
+    LOSE : "Better luck next time...",
     TIE : "We are equals! Let's play again..."
 }
 
